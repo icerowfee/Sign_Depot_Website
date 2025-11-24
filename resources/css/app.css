@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none !important;
+}
+
+/* Custom styles can be added below */
+body {
+    padding: 0;
+    margin: 0;
+}
