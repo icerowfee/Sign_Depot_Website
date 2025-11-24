@@ -1,13 +1,15 @@
 <footer class="flex flex-col justify-between items-center bg-[#A92729] p-12 pb-0">
     <div class="grid grid-cols-3">
         
-        <div class="flex flex-col items-center align-middle">
-            <img class="h-14 w-64" src="{{ asset('images/assets/sign-depot-logo-white.png') }}" alt="Sign Depot logo">
-            <div class="grid grid-cols-4 gap-4 place-items-center mt-4">
-                <img class="h-6 w-auto object-contain" src="{{ asset('images/assets/thee-print-logo-white.png') }}" alt="Thee Print logo">
-                <img class="h-6 w-auto object-contain" src="{{ asset('images/assets/karatula-logo-white.png') }}" alt="Karatula logo">
-                <img class="h-6 w-auto object-contain" src="{{ asset('images/assets/yison-logo-white.png') }}" alt="Yison logo">
-                <img class="h-6 w-auto object-contain" src="{{ asset('images/assets/visayads-logo-white.png') }}" alt="Visayads logo">
+        <div class="flex flex-col items-center align-middle justify-center">
+            <img class="h-[55%] w-[65%]" src="{{ asset('images/assets/sign-depot-logo-white.png') }}" alt="Sign Depot logo">
+            <div class="grid grid-cols-6 place-items-center mt-4">
+                <img class="h-10 w-auto object-contain" src="{{ asset('images/assets/visayads-logo-white.png') }}" alt="Visayads logo">
+                <img class="h-10 w-auto object-contain" src="{{ asset('images/assets/thee-print-logo-white.png') }}" alt="Thee Print logo">
+                <img class="h-10 w-auto object-contain" src="{{ asset('images/assets/karatula-logo-white.png') }}" alt="Karatula logo">
+                <img class="h-10 w-auto object-contain" src="{{ asset('images/assets/yison-logo-white.png') }}" alt="Yison logo">
+                <img class="h-10 w-auto object-contain" src="{{ asset('images/assets/letop-logo-white.png') }}" alt="Yison logo">
+                <img class="h-10 w-auto object-contain" src="{{ asset('images/assets/surmount-logo-white.png') }}" alt="Yison logo">
             </div>
         </div>
 
@@ -36,9 +38,9 @@
             <div class="flex justify-center items-center align-middle">
                 <ul class="flex flex-col space-y-2">
                     <li><a href="/" class="text-white text-lg hover:underline">Home</a></li>
-                    <li><a href="/" class="text-white text-lg hover:underline">Services</a></li>
-                    <li><a href="/" class="text-white text-lg hover:underline">About Us</a></li>
-                    <li><a href="/" class="text-white text-lg hover:underline">Contact Us</a></li>
+                    <li><a href="/services" class="text-white text-lg hover:underline">Services</a></li>
+                    <li><a href="/about-us" class="text-white text-lg hover:underline">About Us</a></li>
+                    <li><a href="/contact-us" class="text-white text-lg hover:underline">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -50,7 +52,7 @@
     </div>
 
     <div class="py-4">
-        <p class="text-white text-center">© 2025 D’Sign Depot Central PH Inc. All rights reserved.</p>
+        <p class="text-white text-center">© {{ date('Y') }} D’Sign Depot Central PH Inc. All rights reserved.</p>
     </div>
 
 </footer>

@@ -114,31 +114,31 @@
     <script>
         // Team images data - Replace with your actual team photos
         window.teamImages = [{
-                src: '{{ asset('images/teams/sign-depot-team.png') }}',
+                src: '{{ asset('images/teams/sign-depot-team-1.png') }}',
                 alt: 'Sign Depot Team',
                 title: 'Our Creative Team',
                 description: 'Designers and fabricators working together to bring your ideas to life'
             },
             {
-                src: '{{ asset('images/team/team-2.jpg') }}',
+                src: '{{ asset('images/teams/sign-depot-team-2.png') }}',
                 alt: 'Production Team',
                 title: 'Production Excellence',
                 description: 'State-of-the-art equipment and skilled craftsmen ensuring quality output'
             },
             {
-                src: '{{ asset('images/team/team-3.jpg') }}',
+                src: '{{ asset('images/teams/sign-depot-team-1.png') }}',
                 alt: 'Installation Team',
                 title: 'Professional Installation',
                 description: 'Experienced installers delivering seamless project completion'
             },
             {
-                src: '{{ asset('images/team/team-4.jpg') }}',
+                src: '{{ asset('images/teams/sign-depot-team-2.png') }}',
                 alt: 'Customer Service',
                 title: 'Client-Focused Service',
                 description: 'Dedicated team ensuring every project exceeds expectations'
             },
             {
-                src: '{{ asset('images/team/team-5.jpg') }}',
+                src: '{{ asset('images/teams/sign-depot-team-1.png') }}',
                 alt: 'Management Team',
                 title: 'Leadership & Vision',
                 description: 'Guiding Sign Depot towards excellence and innovation'
