@@ -8,7 +8,7 @@
     </button>
 
     <!-- Carousel Container -->
-    <div class="relative min-h-[500px] md:h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="relative min-h-[500px] md:h-[600px] flex items-center justify-center overflow-hidden">
         <div :style="`perspective: ${window.innerWidth < 768 ? '800px' : '1200px'}; perspective-origin: center center;`"
              class="relative w-full h-full flex items-center justify-center">
             <template :key="index" x-for="(product, index) in products">

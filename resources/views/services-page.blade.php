@@ -52,7 +52,7 @@ if (window.location.search.includes('service=')) {
     </section>
 
 
-    <section class="grid grid-cols-1 md:grid-cols-5 py-6 h-[66.6lvh] w-11/12 mx-auto">
+    <section class="grid grid-cols-1 md:grid-cols-5 py-6  md:h-[66.6lvh] w-11/12 mx-auto">
         <!-- Mobile Service Tabs -->
         <div class="md:hidden mb-6">
             <div class="flex overflow-x-auto space-x-2 pb-2 scrollbar-hide">

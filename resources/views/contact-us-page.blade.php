@@ -155,7 +155,7 @@
         </div>
     </section>
 
-    <section class="py-20" x-data>
+    {{-- <section class="py-20" x-data>
         <div class="flex flex-col w-2/4 mx-auto gap-6">
             <div class="flex justify-center">
                 <img alt="" class="h-20" src="{{ asset('images/assets/sd-logo.png') }}">
@@ -169,7 +169,7 @@
                 </button>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <script>
         // Location data - Replace with your actual business locations
@@ -183,23 +183,23 @@
                 mapEmbed: 'Sign Depot'
             },
             {
-                name: 'Sign Depot - Makati Branch',
+                name: 'Visayads - Cebu Office',
                 type: 'Branch Office',
-                address: '456 Ayala Avenue, Makati City, Metro Manila, Philippines',
+                address: 'Lot 8, Blk-21, J. de Veyra St, NRA Port Center, Cebu City',
                 contact: '+63 2 8234 5678',
                 hours: 'Mon-Sat: 9:00 AM - 7:00 PM',
-                mapEmbed: 'Ayala Avenue, Makati City, Metro Manila, Philippines'
+                mapEmbed: 'Visayads'
             },
             {
-                name: 'Sign Depot - BGC Branch',
+                name: 'Thee Print - Caloocan Branch',
                 type: 'Branch Office',
-                address: '789 Bonifacio High Street, Taguig City, Metro Manila, Philippines',
+                address: 'D1, 106 Caimito Rd, Caloocan, Metro Manila',
                 contact: '+63 2 8345 6789',
-                hours: 'Mon-Sat: 9:00 AM - 7:00 PM',
-                mapEmbed: 'Bonifacio High Street, Taguig City, Metro Manila, Philippines'
+                hours: 'Mon-Sat: 8:00 AM - 5:00 PM',
+                mapEmbed: 'Thee Print'
             },
             {
-                name: 'Sign Depot - Cebu Branch',
+                name: 'Karatula - Cebu Branch',
                 type: 'Branch Office',
                 address: '321 IT Park, Cebu Business Park, Cebu City, Philippines',
                 contact: '+63 32 345 6789',
@@ -207,7 +207,7 @@
                 mapEmbed: 'IT Park, Cebu Business Park, Cebu City, Philippines'
             },
             {
-                name: 'Sign Depot - Davao Branch',
+                name: 'Yison - Davao Branch',
                 type: 'Branch Office',
                 address: '654 J.P. Laurel Avenue, Davao City, Philippines',
                 contact: '+63 82 234 5678',
@@ -215,23 +215,15 @@
                 mapEmbed: 'J.P. Laurel Avenue, Davao City, Philippines'
             },
             {
-                name: 'Sign Depot - Pampanga Branch',
+                name: 'Letop - Malabon Branch',
                 type: 'Branch Office',
-                address: '987 MacArthur Highway, Angeles City, Pampanga, Philippines',
-                contact: '+63 45 123 4567',
-                hours: 'Mon-Sat: 8:00 AM - 6:00 PM',
-                mapEmbed: 'MacArthur Highway, Angeles City, Pampanga, Philippines'
-            },
-            {
-                name: 'Sign Depot - Iloilo Branch',
-                type: 'Branch Office',
-                address: '147 General Luna Street, Iloilo City, Philippines',
+                address: '5-A Araneta Ave, Malabon, 1475 Metro Manila',
                 contact: '+63 33 234 5678',
-                hours: 'Mon-Sat: 8:00 AM - 6:00 PM',
-                mapEmbed: 'General Luna Street, Iloilo City, Philippines'
+                hours: 'Mon-Sat: 9:00 AM - 6:00 PM',
+                mapEmbed: 'Letop'
             },
             {
-                name: 'Sign Depot - Bacolod Branch',
+                name: 'Surmount - Bacolod Branch',
                 type: 'Branch Office',
                 address: '258 Lacson Street, Bacolod City, Philippines',
                 contact: '+63 34 345 6789',

@@ -98,7 +98,7 @@
         </div>
     </section>
 
-    <section class="py-20">
+    {{-- <section class="py-20">
         <div class="flex flex-col w-2/4 mx-auto">
             <p class="text-center text-4xl">“At Sign Depot, we don’t just create signs—we create solutions that make
                 your brand stand out.”</p>
@@ -109,7 +109,7 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <script>
         // Team images data - Replace with your actual team photos
@@ -126,19 +126,19 @@
                 description: 'State-of-the-art equipment and skilled craftsmen ensuring quality output'
             },
             {
-                src: '{{ asset('images/teams/sign-depot-team-1.png') }}',
+                src: '{{ asset('images/teams/sign-depot-team-3.png') }}',
                 alt: 'Installation Team',
                 title: 'Professional Installation',
                 description: 'Experienced installers delivering seamless project completion'
             },
             {
-                src: '{{ asset('images/teams/sign-depot-team-2.png') }}',
+                src: '{{ asset('images/teams/sign-depot-team-4.png') }}',
                 alt: 'Customer Service',
                 title: 'Client-Focused Service',
                 description: 'Dedicated team ensuring every project exceeds expectations'
             },
             {
-                src: '{{ asset('images/teams/sign-depot-team-1.png') }}',
+                src: '{{ asset('images/teams/sign-depot-team-5.png') }}',
                 alt: 'Management Team',
                 title: 'Leadership & Vision',
                 description: 'Guiding Sign Depot towards excellence and innovation'
